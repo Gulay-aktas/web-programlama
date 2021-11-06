@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <input type="text" id="yükseklik" placeholder="Yarıçapı girin">
+            <input type="button" value="Hesapla" id="hesapla">
+            <script>
+                //fonksiyonu tanımladık.
+                function hesapla(){
+                //text kutusu içindeki değeri okuyup sayi değişkenine aktarıyoruz.
+                var sayi=document.getElementById("yükseklik").value;
+                 
+                 //text kutusuna girilen değerler metinsel türdedir. Hesaplama yapabilmek için sayıya çeviriyoruz.
+                 yaricap=Number(sayi);
+                  
+                 var alan= 2*3.14*yaricap*yaricap*sayi;
+                 var hacim = 3.14*yaricap*yaricap*sayi;
+                 alert("silindirin alanı:"+alan+" \n silindirin hacmi:"+hacim);
+
+                }
+               
+                //hesaplama yapması için hesap butonunu seçiyoruz.
+                var hesapBtn=document.getElementById("hesapla");
+                 
+                //fonksiyonu olaya bağlıyoruz.
+                hesapBtn.onclick=hesapla;
+</script>
+</body>
+</head>
+</html>
