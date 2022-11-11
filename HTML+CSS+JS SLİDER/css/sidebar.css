@@ -1,0 +1,71 @@
+#mySidenav a {
+    position: fixed;
+    left: -110px;
+    transition: 0.3s;
+    padding: 15px 35px 15px 15px;
+    width: 175px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+	
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#facebook {
+    top: 700px;
+    background-color: blue;
+}
+
+#twitter {
+    top: 760px;
+    background-color: #2196F3;
+}
+
+#instagram {
+    top: 820px;
+    background-color: #f44336;
+}
+
+#mail {
+    top: 880px;
+    background-color: black;
+}
+@media screen and (min-width: 901px) {
+#mySidenav a {
+    font-size: 15px;
+	
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+#mySidenav a {
+    font-size: 15px;
+	
+	
+	
+  }
+  #facebook {
+    top: 580px;
+    
+}
+
+#twitter {
+    top: 640px;
+    
+}
+
+#instagram {
+    top: 700px;
+    
+}
+
+#mail {
+    top: 760px;
+    
+}
+}

@@ -1,0 +1,60 @@
+.sablon {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+	color:black;
+	height:auto;
+	width:600px;
+	position: absolute;
+
+      left: 80px;
+      top: 800px;
+	}
+
+.sablon01 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+	color:black;
+	height:auto;
+	width:600px;
+	position: absolute;
+
+      left: 700px;
+      top: 800px;
+	}
+
+@media screen and (min-width: 901px) {
+  .sablon {
+    font-size: 80px;
+	
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+  .sablon {
+    font-size: 30px;
+	left:80px;
+	top:450px;
+	height:1000px;
+	width:400px;
+  }
+}
+@media screen and (min-width: 901px) {
+  .sablon01 {
+    font-size: 80px;
+	
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+  .sablon01 {
+    font-size: 30px;
+	left:480px;
+	top:450px;
+	height:1000px;
+	width:400px;
+  }
+}

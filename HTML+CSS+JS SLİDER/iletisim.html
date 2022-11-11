@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+		<title>Yapı.inşaat San. ve Tic. A.Ş.</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css\contact.css">
+		<link rel="stylesheet" href="css\navbar.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css\sidebar.css">
+
+
+</head>
+<body>
+			<div class="topnav" id="myTopnav">
+			  <a href="index.html" ><img src="img\home.png" width="25px" height="25px">AnaSayfa</a>
+			  <a href="calismalar.html"><img src="img\projects.png" width="25px" height="25px">Çalışmalarımız</a>
+			  <a href="hakkimizda.html"><img src="img\about.png" width="25px" height="25px">Hakkımızda</a>
+			  <a href="iletisim.html" class="active"><img src="img\contact.png" width="25px" height="25px">İletişim</a>
+			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			  </a>
+			</div>
+
+
+
+					<div class="container">
+					  <div style="text-align:center">
+						<h2>İletişim Formu</h2>
+						
+					  </div>
+					  <div class="row">
+						<div class="column">
+						  <div id="map" style="width:100%;height:500px">
+						  <img  style="width:110%;height:500px" src="img\iletisim.jpg">
+						  </div>
+						</div>
+						<div class="column">
+						  <form action="/action_page.php">
+							<label for="fname">Adınız</label>
+							<input type="text" id="isim" name="isim" placeholder="İsminiz...">
+							<label for="lname">Soyadınız</label>
+							<input type="text" id="soyad" name="soyad" placeholder="Soyadınız...">
+							<label for="sehir">Şehir</label>
+							<select id="sehir" name="sehir">
+								<option value="Bitlis">Bitlis</option>
+							  <option value="elazıg">elazıg</option>
+							  <option value="ankara">Ankara</option>
+							 
+							</select>
+							<label for="mesaj">Mesajınız</label>
+							<textarea id="mesaj" name="mesaj" placeholder="Mesajınızı yazınız..." style="height:170px"></textarea>
+							<input type="submit" value="Gönder">
+						  </form>
+						</div>
+					  </div>
+					</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="https://www.facebook.com/ChampionsLeague/?__tn__=kC-R&eid=ARANRfnYb9Gif1mDaESAZmkEqKhCdSbTFxB96F8AdNIskTi0HNXIIu8EpCaWJ-sKgxHh5s4W5wqbAAU6&hc_ref=ARRzJysrEgh_WrrmWwH8dvxOWri--Xo16RaaDUbKtbMuyr8_dzf0vqY_KDTm4nKyOj8&fref=nf&__xts__[0]=68.ARBTf2h-pc9-Zjst_zSBfC0RASvLi7da0BlsmPbvu8pxhEJobs7ShCeYv7MGRF4dqBIvV6qUvi6j-79_CTsmg55e-3SCE3vxf9Buqx0aoyU69vz3rFvxA-PjdzyKPywJ2h0jvug8z4UDAAFVQ843MibCgfaFkbNwK9rzrKqjN1dh9NpeSwqyJwbsAXUjaa24rB-yRnzVoNG6xUfXDEjCk8zuXqZ1U9nVAVLMnfO4bg" id="facebook">Facebook</a>
+  <a href="https://twitter.com/NevzatCanU" id="twitter">Twitter</a>
+  <a href="https://www.instagram.com/nesrin.cavadzade/?hl=tr" id="instagram">İnstagram</a>
+  <a href="iletisim.html" id="mail">Mail</a>
+</div>
+<div class="footer">
+		<p>Tüm Hakları Saklıdır 2022 © Yapı.inşaat</p>
+		</div>
+	
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
