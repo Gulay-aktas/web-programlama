@@ -1,0 +1,49 @@
+
+  
+  body {
+    background: rgb(253, 198, 244);
+    font-family: 'Rubik', sans-serif;
+  }
+  h1 {
+    text-align:center;
+    margin-top: 20%;
+  }
+  #gonder{
+    margin-left: 40%;
+    
+    background: #B9DFFF;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+  }
+  #gonder:hover{
+    background: #016ABC;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+  }
+  #renk{
+    background: #fff;
+    
+    font-family: 'Rubik', sans-serif;
+  }
+  #hizalama{
+    font-weight: bold;
+    margin-left: 40%;
+    ;
+  }
+ 
+  
+  .giris {
+    background:#1907c0 ;
+    width: 500px;
+    margin: 65px auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
