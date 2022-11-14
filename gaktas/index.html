@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css ini ekliyoruz ki bootstrap hazır kütüphanesini kullanalım -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- stil dosyası kullanıyoruz stilsel özellikler için -->
+    <link rel="stylesheet" type="text/css" href="css/stildosya.css">
+
+
+
+
+</head>
+
+<body>
+    <!-- üst taraftaki menüleri bootstrap aracılığı ile ekliyoruz -->
+    <ul class="nav nav-tabs tab-custom" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active navbar1" id="project-tab" data-bs-toggle="tab"
+                data-bs-target="#project-tab-pane" type="button" role="tab" aria-controls="project-tab-pane"
+                aria-selected="true">Project</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link navbar1" id="task-tab" data-bs-toggle="tab" data-bs-target="#task-tab-pane"
+                type="button" role="tab" aria-controls="task-tab-pane" aria-selected="false">Task</button>
+        </li>
+       
+        <li class="nav-item" role="presentation">
+            <button class="nav-link navbar1" id="request-tab" data-bs-toggle="tab" data-bs-target="#request-tab-pane"
+                type="button" role="tab" aria-controls="request-tab-pane" aria-selected="false">Request</button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+            <button class="nav-link navbar1" id="report-tab" data-bs-toggle="tab" data-bs-target="#report-tab-pane"
+                type="button" role="tab" aria-controls="report-tab-pane" aria-selected="false">Report</button>
+        </li>
+
+
+       
+
+
+
+    </ul>
+
+    <div class="contain" id="myTabContent">
+        <div class="tab-pane fade show active" id="project-tab-pane" role="tabpanel" aria-labelledby="project-tab"
+            tabindex="0">
+
+
+<!-- inputları burada bootstrap kütüphanesini kullanarak entegre ediyoruz -->
+            <div class="container text-center ">
+                <div class="row ">
+                    <div class="col border" style="margin-top: 15px;">
+
+                        <div class="input-group mb-3">
+                            <span style="background-color:#BBDEFB;" class="input-group-text " id="basic-addon3">PROJECT
+                                NAME</span>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">PROJECT NUMBER</span>
+                            <input disabled type="text" placeholder="039.10.010.082.294" class="form-control"
+                                id="basic-url" aria-describedby="basic-addon3">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">PROJECT TYPE</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>SOLAR PROJECT DEVELPMENT</option>
+
+                            </select>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">MAİN WORKS</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Project Development</option>
+
+                            </select>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span style="background-color:#BBDEFB;" class="input-group-text" id="deadlinelabel">DEAD
+                                LİNE</span>
+                            <input type="date" class="form-control" id="date" aria-describedby="basic-addon3">
+                        </div>
+
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">CAPACTY</span>
+                            <input type="number"  class="form-control" id="basic-url"
+                                aria-describedby="basic-addon3">
+                        </div>
+
+
+
+
+
+                    </div>
+                    <div class="col   border" style=" margin-top: 15px;">
+
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">COMPANY</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>GNCR ITALIA HOLDING</option>
+
+                            </select>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">COUNTRY</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Two</option>
+
+                            </select>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">REGİON</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Veneto</option>
+
+                            </select>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">PROVİNCE</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Treviso</option>
+
+                            </select>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">MUNİCİPULTY</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Roncade</option>
+
+                            </select>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="col   border" style=" margin-top: 15px;">
+
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">Phase</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Phase D Premitting Followup</option>
+
+                            </select>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label style="background-color:#E57373;" class="input-group-text"
+                                for="inputGroupSelect01">Step</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>One</option>
+                                n>
+                            </select>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label style="background-color:#E57373" class="input-group-text"
+                                for="inputGroupSelect01">Status</label>
+                            <select class="form-select" id="inputGroupSelect01">
+
+                                <option selected>Two</option>
+
+
+                            </select>
+
+
+                            <button type="button" class="info  btn btn-danger btn-sm" data-bs-toggle="tooltip"
+                                data-bs-placement="top" data-bs-custom-class="custom-tooltip">
+                                !
+                            </button>
+
+
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <input type="password" class="form-control" placeholder="Password"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button style="background-color:	#2E7D32;" class="btn btn-success" type="submit"
+                                id="button-addon2">Completed</button>
+                        </div>
+
+
+
+                        <div class="input-group mb-3">
+                            <input type="password" class="form-control" placeholder="Password"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button style="background-color:#E57373;" type="submit">Reject
+
+                            </button>
+                        </div>
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <br>
+
+            <div class="container text-center ">
+                <div class="row ">
+                    <div class="col border2">
+
+                        <div class="input-group mb-3  tab2">
+                            <span class="input-group-text" id="basic-addon3">Working Group</span>
+
+
+                        
+
+                            </input>
+                        </div>
+
+
+
+
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col ">
+
+                                    <div class="input-group mb-3 ">
+                                        <span class="input-group-text" id="basic-addon3">CC</span>
+                                        <input type="text" value="10" class="form-control" id="basic-url"
+                                            aria-describedby="basic-addon3">
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col ">
+                                    <div class="input-group mb-3 ">
+                                        <input type="text" class="form-control" placeholder="Forward"
+                                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <button style="background-color:	#2E7D32;" class="btn btn-success" type="button"
+                                            id="button-addon2">Forward</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="input-group">
+                            <input type="file" class="form-control" id="inputGroupFile04"
+                                aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                            <button style="background-color:	#2E7D32;" class="btn btn-success" type="button"
+                                id="inputGroupFileAddon04">SAVE
+                            </button>
+                        </div>
+
+                        <div class="input-group mb-3 alan ">
+                            <span class="input-group-text " id="basic-addon3">Explanation</span>
+
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade " id="task-tab-pane" role="tabpanel" aria-labelledby="task-tab" tabindex="0">
+        </div>
+     
+        <div class="tab-pane fade " id="request-tab-pane" role="tabpanel" aria-labelledby="request-tab" tabindex="0">
+
+        </div>
+        <div class="tab-pane fade " id="report-tab-pane" role="tabpanel" aria-labelledby="report-tab" tabindex="0">
+
+        </div>
+    
+      
+
+
+
+
+
+    </div>
+
+
+
+<!-- tab pane için bootstrap sitesi üzerinden js özelliklerini ekliyoruz -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
